@@ -1,0 +1,177 @@
+body {
+    background-color: #16a085 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+h1 {
+    line-height: 1em;
+}
+
+blockquote {
+    padding: 0 0 0 15px;
+    margin: 0 0 20px;
+    border-left: 5px solid #eee;
+}
+
+table {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.fileupload-progress {
+    margin: 10px 0;
+}
+
+.fileupload-progress .progress-extended {
+    margin-top: 5px;
+}
+
+.error {
+    color: red;
+}
+
+@media (min-width: 481px) {
+    .navigation {
+        list-style: none;
+        padding: 0;
+    }
+
+    .navigation li {
+        display: inline-block;
+    }
+
+    .navigation li:not(:first-child):before {
+        content: "| ";
+    }
+}
+
+.progress_style {
+    width: 200px;
+}
+
+.bgimage {
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+}
+
+legend {
+    color: #CACACA !important;
+}
+
+#connect {
+    float: right;
+    margin-right: 20px;
+
+}
+
+#menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#subscribeForm {
+    padding-top: 1px;
+    padding-bottom: 10px;
+    background-color: #edeff1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    float: none !important;
+}
+#subscribeForm h2{
+
+}
+@media (min-width: 1200px) {
+    h1 {
+        margin-top: 10px;
+    }
+
+    #menu section {
+        text-align: center;
+    }
+
+}
+
+.container .row:hover {
+    cursor: pointer;
+}
+
+.filename {
+    border-right: solid black 3px;
+    word-wrap: break-word;
+}
+#uploadedFiles hr{
+    border-color: #1abc9c;
+    height: 1px;
+    margin-left: 2px;
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.download-content div{
+    margin-top: 22px;
+}
+.download-content .image{
+    margin-top: 5px;
+}
+
+#uploadedFiles {
+    margin-left: 30px;
+}
+
+.well {
+    margin-top: 20px;
+}
+
+.form-control {
+    border-radius: 0;
+    border-color: #1ABC9C;
+    border: none;
+    box-shadow: none !important;
+    border-bottom: 1px solid #1ABC9C;
+    transition: border-bottom-width ease-in-out .15s;
+    -o-transition: border-bottom-width ease-in-out .15s;
+    -moz-transition: border-bottom-width ease-in-out .15s;
+}
+.form-control[disabled]{
+    background-color: #d7d7d7;
+}
+select.form-control{
+    border: none!important;
+}
+.form-control:focus {
+    border-color: #1ABC9C;
+    box-shadow: none !important;
+    border-bottom-width: 3px;
+}
+hr{
+    border-color:#878787 ;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+#dropbox {
+    background-color: cornsilk;
+    overflow: scroll;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#progressStatus{
+    left: 45%;
+    position: absolute;
+}
+.preview img{
+    width: 80px;
+    height: 57px;
+}

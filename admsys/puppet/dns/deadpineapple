@@ -1,0 +1,51 @@
+$ORIGIN deadpinapple.lan.
+$TTL 1D
+@     IN SOA   torvalds hostmaster (
+                        200405191 ; serial
+                        8H        ; refresh
+                        4H        ; retry
+                        4W        ; expire
+                        1D )      ; minimum
+
+                NS      srvdns1
+                MX      10 SrvMail.deadpinapple.lan
+www             CNAME   weblb
+localhost       A       127.0.0.1
+FW1            	A       10.42.0.3
+FW2        	A       10.42.0.2
+SAN	        A       10.42.6.1
+SrvDNS1         A       10.42.3.1
+SrvDNS2         A       10.42.3.2
+SqlSrv1         A       10.42.2.1
+SqlSrv2         A       10.42.2.2
+SqlSrv3         A       10.42.2.3
+SqlSrv4         A       10.42.2.4
+SqlSrv5         A       10.42.2.5
+SqlSrv6         A       10.42.2.6
+SqlSrv7         A       10.42.2.7
+SqlSrv8         A       10.42.2.8
+SqlSrv9         A       10.42.2.9
+SqlSrv10        A       10.42.2.10
+WebTom1         A       10.42.1.1
+WebTom2         A       10.42.1.2
+WebTom3         A       10.42.1.3
+WebTom4         A       10.42.1.4
+WebTom5         A       10.42.1.5
+WebTom6         A       10.42.1.6
+WebTom7         A       10.42.1.7
+WebTom8         A       10.42.1.8
+WebTom9         A       10.42.1.9
+WebTom10        A       10.42.1.10
+SrvMQ		A	10.42.7.1
+WebLB		A	10.42.1.1
+SrvMail		A	10.42.4.1
+worker1         A       10.42.5.1
+worker2         A       10.42.5.2
+worker3         A       10.42.5.3
+worker4         A       10.42.5.4
+worker5         A       10.42.5.5
+worker6         A       10.42.5.6
+worker7         A       10.42.5.7
+worker8         A       10.42.5.8
+worker9         A       10.42.5.9
+worker10        A       10.42.5.10

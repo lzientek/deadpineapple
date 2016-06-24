@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rabbit>
+    <connection>
+        <serveur host="localhost" port="5672"/>
+        <user name="rab1" password="rab1pass"/>
+    </connection>
+</rabbit>

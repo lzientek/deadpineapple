@@ -1,0 +1,234 @@
+.no-js #loader {
+    display: none;
+}
+
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    /*background: url(/resources/img/loader-64x/Preloader_2.gif) center no-repeat #fff;*/
+}
+
+iframe {
+    display: none;
+    height: 0 !important;
+    width: 0 !important;
+}
+
+#conteneur {
+
+}
+
+#whats {
+
+}
+
+.etapes {
+
+    margin-top: 10%;
+}
+
+#description {
+    height: 200px;
+    margin-top: 2%;
+    overflow-y: auto;
+}
+
+.photo {
+    float: left;
+}
+
+#coord {
+    height: 450px;
+    background-color: white;
+    margin-top: 10%;
+}
+
+#msg {
+    margin-top: 10%
+}
+
+#test {
+    float: right;
+}
+
+#creer {
+    cursor: pointer;
+}
+
+#ajoutez {
+    background: url(/resources/img/ananasmort2.svg) center 0 no-repeat fixed;
+}
+
+#ajoutez h1 {
+    padding-top: 10%;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 6em;
+}
+#ajoutez > .btn{
+    margin-top: 20px;
+}
+#ajoutez .small {
+    color: #FFFFFF;
+}
+
+#whats {
+    background: url(/resources/img/fondananasworker.svg) center 0 no-repeat fixed;
+}
+
+#whos {
+    background: url(/resources/img/fondananaslunettes.svg) center 0 no-repeat fixed;
+}
+#whos .col-xs-1{
+    padding: 0;
+}
+#contact {
+    background: url(/resources/img/fondananascontact.svg) center 0 no-repeat fixed;
+}
+
+#poussoir {
+    position: relative;
+    margin-top: 300px;
+}
+
+#upload {
+    position: absolute;;
+    top: 40%;
+}
+
+#1choose {
+    background: url(/resources/img/ananas1.png) center 0 no-repeat;
+
+}
+
+#2upload {
+    background: url(/resources/img/start.svg) center 0 no-repeat;
+
+}
+
+#3convert {
+    background: url(/resources/img/convert2.svg) center 0 no-repeat;
+
+}
+
+#4enjoy {
+    background: url(/resources/img/deadpinnaple1.svg) center 0 no-repeat;
+}
+
+#uploadaccess {
+    height: 34px;
+}
+
+.etp {
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 185, 233, .75);
+    box-shadow: 0px 0px 15px 5px rgba(0, 185, 233, .75);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.etphv{
+    -webkit-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+    box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+}
+#lunettes {
+    margin: 0;
+    position: relative;
+    z-index: 105;
+    width: 100px;
+}
+
+.lunnette{
+    position: absolute;
+    top: 12px;
+    left: 0;
+    right: 0;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.msg {
+    margin-top: 40px !important;
+    background-color: #edeff1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#description {
+    text-align: left;
+}
+
+#seconnecterindex {
+    position: absolute;
+    top: 15%;
+    background-color: #edeff1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.scroll-down-btn {
+    position: absolute;
+    bottom: 40px;
+}
+
+.scroll-down-btn button {
+    background: rgba(255, 255, 255, 0.7);
+    height: 37px;
+    width: 100%;
+    text-align: center;
+    border: none !important;
+    border-radius: 25px;
+    transition: content 0.15s;
+}
+
+.scroll-down-btn button:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.scroll-down-btn button:hover::before {
+    content: '↓ ';
+}
+
+.scroll-down-btn button:hover::after {
+    content: ' ↓';
+}
+
+.scroll-down-btn button:active {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.btn.btn-success {
+    background-color: #1abc9c;
+    border-color: #16a085;
+}
+
+.btn.btn-success:hover, .btn.btn-success:active:focus {
+    border-color: #1abc9c;
+    background-color: #16a085;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.membre {
+    margin-top: 10%;
+}
+
+.adresses {
+    border-top: 1px solid black;
+    height: 250px;
+}

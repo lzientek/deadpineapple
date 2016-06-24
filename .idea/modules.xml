@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dead-pineapple-core/dead-pineapple-core.iml" filepath="$PROJECT_DIR$/dead-pineapple-core/dead-pineapple-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dead-pineapple-dal/dead-pineapple-dal.iml" filepath="$PROJECT_DIR$/dead-pineapple-dal/dead-pineapple-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dead-pineapple-front/dead-pineapple-front.iml" filepath="$PROJECT_DIR$/dead-pineapple-front/dead-pineapple-front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dead-pineapple-rabbitmq/dead-pineapple-rabbitmq.iml" filepath="$PROJECT_DIR$/dead-pineapple-rabbitmq/dead-pineapple-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dead-pineapple-transcoder/dead-pineapple-transcoder.iml" filepath="$PROJECT_DIR$/dead-pineapple-transcoder/dead-pineapple-transcoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dead-pineapple-videoHelper/dead-pineapple-videoHelper.iml" filepath="$PROJECT_DIR$/dead-pineapple-videoHelper/dead-pineapple-videoHelper.iml" />
+    </modules>
+  </component>
+</project>

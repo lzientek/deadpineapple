@@ -1,0 +1,57 @@
+#depot{
+  position: relative;
+  background-color: yellow;
+  height:600px;
+  margin-top:5%;
+}
+#uploaded{
+  position: relative;
+  background-color: yellow;
+    height:600px;
+  margin-top:5%;
+
+}
+#preview{
+  margin-top:5%;
+
+}
+#well{
+  position: relative;
+  border: 1px solid black;
+  background-color: white;
+}
+#dock{
+
+}
+.btnupload img{
+  height:200px;
+}
+
+#preview{
+  background-color: black;
+}
+.btnupload{
+  cursor:pointer;
+}
+.dashboard-container{
+  margin-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 70px;
+  background: #edeff1;
+}
+.invoices{
+  overflow: auto;
+  height: 256px;
+}
+.actions{
+  float: right;
+}
+.actions button{
+  width: 25px;
+  height: 25px;
+  padding: 1px;
+}
+.actions img{
+ width: 19px;
+  height: 19px;
+}

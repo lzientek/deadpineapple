@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="dead-pineapple-core" />
+        <module name="dead-pineapple-dal" />
+        <module name="dead-pineapple-front" />
+        <module name="dead-pineapple-rabbitmq" />
+        <module name="dead-pineapple-transcoder" />
+        <module name="dead-pineapple-videoHelper" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dead-pineapple-core" target="1.6" />
+      <module name="dead-pineapple-dal" target="1.6" />
+      <module name="dead-pineapple-front" target="1.6" />
+      <module name="dead-pineapple-rabbitmq" target="1.6" />
+      <module name="dead-pineapple-transcoder" target="1.6" />
+      <module name="dead-pineapple-videoHelper" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

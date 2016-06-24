@@ -1,0 +1,108 @@
+#leftbar {
+    z-index: 101;
+    position: fixed;
+    margin-top: 10%;
+    width: 270px;
+}
+
+@media screen and (max-height: 420px) {
+    #leftbar{
+        margin-top: 2% !important;
+    }
+}
+#help {
+    z-index: 101;
+    position: fixed;
+    margin-left: 3%;
+    margin-top: 2%;
+    height: 100px;
+}
+
+#repli {
+    position: absolute;
+    width: 53px;
+    top: 0;
+    right: 0;
+    height: auto;
+    padding-left: 3px;
+}
+
+#repli .icon {
+    float: left;
+}
+
+.login-inp {
+    margin: 3px;
+    border: none;
+    background: white;
+    width: 193px;
+    padding: 4px;
+    border-bottom: 1px solid #1ABC9C;
+}
+
+.menu-vertical {
+    position: absolute;
+    right: 53px;
+    height: auto;
+    top: 0;
+    left: 0;
+    /*height: 400px;*/
+    /*width: 250px; /* optionnel, c'est pour la démo */
+    list-style: none; /* supprime les puces de liste */
+    padding: 4px; /* on fait un peu de place autour des liens */
+    margin: 0; /* on annule les marges */
+    background: #F2F2F2;
+}
+
+/* styles des liens et éléments de liste */
+.mv-item,
+.mv-item a {
+    /* les liens et item deviennent des blocs */
+    /* suffit théoriquement à virer les puces de liste */
+    display: block;
+}
+
+/* styles des liens */
+.mv-item a {
+    margin: 1px 0; /* espace les liens d'1 px */
+    padding: 8px 20px; /* marges internes pour aérer */
+    color: #666;
+    background: #FFF;
+    text-decoration: none; /* on vire le soulignement */
+
+    /* on définit la transition pour les navigateurs */
+    -webkit-transition: all .3s; /* Chrome/Safari */
+    -moz-transition: all .3s; /* Firefox (plus trop nécessaire) */
+    transition: all .3s; /* syntaxe officielle */
+}
+
+/* styles changeants au survol et focus */
+.mv-item a:hover,
+.mv-item a:focus {
+    background: #1ABC9C;
+    color: #FFF;
+    padding-left: 30px; /* décalage du contenu de 10px vers la droite (30-20 = 10) */
+}
+
+#delete {
+    width: 100px;
+}
+
+.login {
+    height: 30px;
+    cursor: pointer;
+}
+
+#seconnecter {
+    border: 1px solid green;
+}
+
+.icon {
+    margin-top: 8px;
+    height: 40px;
+    transition: height 0.7s linear;
+}
+
+.icon.bigger {
+    height: 70px;
+}

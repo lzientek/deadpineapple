@@ -1,0 +1,44 @@
+$ORIGIN 1.42.10.in-addr.arpa.
+$TTL 1D
+@     IN SOA  torvalds.schroder.net. hostmaster.schroder.net. (
+              200405190  ; serial
+              28800      ; refresh (8 hours)
+              14400      ; retry (4 hours)
+              2419200    ; expire (4 weeks)
+              86400      ; minimum (1 day)
+              )
+              NS      SrvDNS1.deadpineapple.lan.
+; our hosts, in numeric order
+1             PTR     FW1.deadpineapple.lan.
+2             PTR     FW2.deadpineapple.lan.
+3             PTR     SAN.deadpineapple.lan.
+4             PTR     SqlSrv1.deadpineapple.lan.
+5             PTR     SqlSrv2.deadpineapple.lan.
+6             PTR     SqlSrv3.deadpineapple.lan.
+7             PTR     SqlSrv4.deadpineapple.lan.
+8             PTR     SqlSrv5.deadpineapple.lan.
+9             PTR     SqlSrv6.deadpineapple.lan.
+10            PTR     SqlSrv7.deadpineapple.lan.
+11            PTR     SqlSrv8.deadpineapple.lan.
+12            PTR     SqlSrv9.deadpineapple.lan.
+13            PTR     WebTom1.deadpineapple.lan.
+14            PTR     WebTom2.deadpineapple.lan.
+15            PTR     WebTom3.deadpineapple.lan.
+16            PTR     WebTom4.deadpineapple.lan.
+17            PTR     WebTom5.deadpineapple.lan.
+18            PTR     WebTom6.deadpineapple.lan.
+19            PTR     WebTom7.deadpineapple.lan.
+20            PTR     WebTom8.deadpineapple.lan.
+21            PTR     WebTom9.deadpineapple.lan.
+22            PTR     SrvMQ.deadpineapple.lan.
+23            PTR     WebLB.deadpineapple.lan.
+24            PTR     SrvMail.deadpineapple.lan.
+25            PTR     worker1.deadpineapple.lan.
+26            PTR     worker2.deadpineapple.lan.
+27            PTR     worker3.deadpineapple.lan.
+28            PTR     worker4.deadpineapple.lan.
+29            PTR     worker5.deadpineapple.lan.
+30            PTR     worker6.deadpineapple.lan.
+40            PTR     worker7.deadpineapple.lan.
+41            PTR     worker8.deadpineapple.lan.
+42            PTR     worker9.deadpineapple.lan.
